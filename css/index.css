@@ -1,0 +1,66 @@
+/* Home */
+/* Cards de Atividades */
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Seção Inspiracional */
+section {
+    padding: 60px 0;
+    font-family: 'Merriweather', serif;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.text-center {
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    padding: 10px; /* Espaçamento */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: 20px; /* Margem superior */
+    font-size: 16px; /* Tamanho da fonte */
+}
+/* Estilo para os títulos das seções */
+.section-title {
+    font-size: 1.8rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Cor do título (Pigment Green, conforme a identidade visual) */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Ajuste de responsividade para telas menores */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem; /* Diminui o tamanho do título em telas menores */
+    }
+}
